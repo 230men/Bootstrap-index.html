@@ -1,0 +1,130 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2 {
+    font-weight: bold;
+    line-height: 1.5; 
+}
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+i {
+    margin-right: 8px;
+}
+.ul-bottom-margin-to-look-equal {
+    margin-bottom: 44px; 
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.container-fluid {
+    padding: 3% 15% 0;
+}
+.btn-lg {
+    margin: 20px 10px;
+    margin-left: 0;
+}
+.fa-check-circle, .fa-heart, .fa-bullseye {
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.fa-heart:hover, .fa-check-circle:hover, .fa-bullseye:hover {
+    color: #ff4c68;
+}
+.pricing-topmargin {
+    margin-top: 1.2rem;
+}
+.subtext-grey {
+    color: #8f8f8f;
+}
+.testimonial-img {
+    width: 10%;
+    margin: 5%;
+    border-radius: 100%;
+}
+.testimonial-text {
+    padding: 0 10%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.aligning-center {
+    text-align: center;
+}
+.top-margin {
+    margin-top: 7rem;
+}
+.font-size-lg {
+    font-size: 2.3rem;
+}
+.black-with-margin {
+    color: black;
+    padding: 3% 0.5%;
+}
+#top-row {
+    text-align: center;
+    padding: 10% 15%;
+    font-weight: 500;
+}
+#tindog {
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+}
+#title {
+    background-color: #ff4c68;
+    color: white;
+    padding-bottom: 10%;
+}
+#rotate {
+    transform: rotate(30deg);
+    width: 250px;
+    position: absolute;
+    right: 30%;
+}
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+#press {
+    text-align: center;
+    background-color: #ef8172;
+}
+#features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
+}
+#cta {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 7rem;
+}
+#footer {
+    text-align: center;
+}
+@media (max-width: 1028px) {
+    #rotate {
+        transform: rotate(0deg);
+        position: static;
+    }
+    #title {
+        text-align: center;
+    }
+}
